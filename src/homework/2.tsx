@@ -1,4 +1,3 @@
-import { union } from "lodash";
 import React, { useReducer } from "react";
 
 type RequestStep = "start" | "pending" | "finished" | "idle";
